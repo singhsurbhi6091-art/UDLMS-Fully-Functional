@@ -4,7 +4,7 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
   plugins: [react()],
-  base: "/UDLMS/",
+  base: "/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "./src"),
